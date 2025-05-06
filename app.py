@@ -1,8 +1,6 @@
 import joblib
 import streamlit as st
-import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 model = joblib.load("exam_score_predictor.pkl")
 scaler = joblib.load("scaler.pkl")
